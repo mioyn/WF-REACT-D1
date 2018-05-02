@@ -1,0 +1,24 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --entry ./src/js/app.js --output-filename ./build.js --mode none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mioyn/WF-REACT-D1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mioyn/WF-REACT-D1/issues"
+  },
+  "homepage": "https://github.com/mioyn/WF-REACT-D1#readme",
+  "devDependencies": {
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.1.2"
+  }
+}
