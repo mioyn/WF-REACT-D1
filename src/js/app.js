@@ -1,3 +1,4 @@
+import '../css/styles.css'
 import {button, header} from './fetchselectors'
 
 var togflag = false;
